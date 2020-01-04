@@ -1,0 +1,129 @@
+body,html, *{
+  margin:0px;
+padding:0px}
+
+.App{
+  margin: auto;
+    padding: 3em;
+}
+h1{
+  text-align: center;
+  /* padding: 0em 6em 1em 0em */
+}
+.FormContainer{
+  width:700px; 
+  /* height:500px;
+  /* background-color: rgb(175, 111, 111); */
+  margin:auto
+
+}
+.inputcontainer{
+display:flex;
+padding:10px
+}
+
+form{
+  /* text-align: center; */
+   
+}
+.emailaddress{
+  padding:10px
+}
+
+.number{
+padding:10px
+}
+
+#lastname, #firstname{ 
+width:220px; 
+padding:15px;
+margin:10px;
+}
+
+#email, #phonenumber{
+width: 500px;
+padding: 15px;
+margin: 10px;
+} 
+
+label{
+display:block;
+text-align: left;
+padding-left: 1em; 
+} 
+
+input[type=checkbox]{
+padding-right: 20px;
+} 
+
+ #genderlabel{
+ 
+  display:block;
+  font-weight: normal;
+} 
+
+.tech{
+  padding-right: 30px;
+}
+ .all{
+  display:flex ;
+  padding:10px 15px
+
+  } 
+
+  #gender{
+    padding-right: 10em
+  }
+
+  .skills{
+    padding:4em 0px;
+    
+  }
+
+  
+#div-checkbox{
+    padding:50px 0px 20px 0px;
+    
+   
+}
+#checkbox{
+    width:10px
+}
+
+#btn{
+    width:250px;
+    background-color: purple;
+    display:block;
+    margin:auto;
+    border-radius: 6px;
+    height: 50px;
+    color:white
+}
+
+/* .infos{
+display:none
+
+} */
+
+.infos{
+  display:block;
+  width:600px;
+  /* height:500px; */
+  Margin:10px ;
+  background-color:rgb(231, 117, 117);
+
+}
+
+
+span{
+  font-weight: bold;
+  font-size:18px;
+ 
+  
+}
+
+@media screen and (max-width: 480px) {
+h1 {
+ width:300px
+  }
+}
